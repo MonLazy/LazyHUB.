@@ -13,7 +13,7 @@ GeneralSection:NewButton("Esp V2", "Extra-Sensory Perception.", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/y8rywKSN'))()
 end)
 
-GeneralSection:NewButton("Fly", "Bird Mode.", function()
+GeneralSection:NewButton("Fly", "Bird Mode.Press X", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/sUa59H3B'))()
 end)
 
