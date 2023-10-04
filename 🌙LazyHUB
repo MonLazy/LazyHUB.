@@ -13,7 +13,7 @@ GeneralSection:NewButton("Esp V2", "Extra-Sensory Perception.", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/y8rywKSN'))()
 end)
 
-GeneralSection:NewButton("Fly", "Bird Mode.Press X", function()
+GeneralSection:NewButton("Fly", "Bird Mode.", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/sUa59H3B'))()
 end)
 
@@ -41,8 +41,8 @@ local SilentAim = Window:NewTab("SilentAim")
 local SilentAimSection = SilentAim:NewSection("SilentAim(FOV)")
 
 
-SilentAimSection:NewButton("SilentAim", "Press T Enable/Disable 95FOV", function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/fTf4iEby'))()
+SilentAimSection:NewButton("Silent/Aim", "Press Q Enable/Disable", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/FyaRBGLn'))()
 end)
 
 
@@ -53,4 +53,3 @@ local UISection = UI:NewSection("UI")
 UISection:NewKeybind("Toggle", "Choose your Keybind", Enum.KeyCode.K, function()
 	Library:ToggleUI()
 end)
-
